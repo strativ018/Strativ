@@ -260,6 +260,22 @@ header h1 {
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+
+.card ul {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+.card ul ul {
+    padding-left: 25px;
+    margin-top: 8px;
+}
+
+.card li {
+    margin-bottom: 6px;
+    line-height: 1.6;
+}
+
 footer {
     background: #03045E;
     color: #ffffff;
@@ -371,7 +387,7 @@ footer {
 
 <header>
     <div class="logo">
-        <img src="/pictures ko/strativlogo.jpg" alt="Strativ Logo">
+        <img src="../../images/logo/logo.jpg" alt="Strativ Logo">
         <h1>STRATIV</h1>
     </div>
 
@@ -415,8 +431,8 @@ footer {
     <div class="sidebar-menu">
         <a href="index.html">Overview of Emerging AI Careers</a>
         <a href="aiEngineer.html">AI Engineer</a>
-        <a href="#">Data Scientist</a>
-        <a href="#">AI Ethics Specialist</a>
+        <a href="dataSci.html">Data Scientist</a>
+        <a href="AI_ethics.html">AI Ethics Specialist</a>
         <a href="#">Machine Learning Engineer</a>
         <a href="#">AI Product Manager</a>
         <a href="#">Careers Summary</a>
@@ -429,78 +445,118 @@ footer {
 <div class="main">
 
     <div class="banner">
-        <img src="/pictures ko/aiEng.png" alt="AI Careers">
-        <div class="banner-text">AI Engineer</div>
+        <img src="../../images/strativ_images/dataScience.jpg" alt="AI Careers">
+        <div class="banner-text">Data Scientist</div>
     </div>
 
-    <!-- OVERVIEW CARD -->
+    <!-- INTRO -->
     <div class="card">
         <p>
-            An AI engineer is someone who designs and builds systems that can perform tasks that normally require human intelligence, such as recognizing images, understanding language, making predictions, or recommending content. Instead of manually programming every rule, they create systems that learn patterns from data and improve over time.
+            At their core, data scientists are problem solvers. They analyze large amounts of data to uncover patterns, generate insights, and help organizations make better decisions. Because of the value they bring, they are in high demand and offer strong career growth opportunities.
         </p>
-        
     </div>
 
-    <!-- GRID SECTION -->
+    <!-- MAIN GRID -->
     <div class="grid">
 
+        <!-- ROLE -->
         <div class="card">
-            <h2>Career Highlights</h2>
-
+            <h2>What Data Scientists Do</h2>
             <p>
-                The field of Artificial Intelligence offers many career paths across development, data, ethics, and product design. Technical roles like AI and Machine Learning Engineers build intelligent systems, while Data Scientists analyze data to support decisions.
+                Data scientists determine the right questions to ask and use data to answer them. They build predictive models, analyze trends, and support decision-making.
             </p>
 
-            <p>
-                Non-technical roles such as AI Ethics Specialists and AI Product Managers focus on responsible development and user-centered AI solutions. Emerging jobs like Prompt Engineers, along with AI Researchers and Robotics Engineers, continue to expand AI capabilities.
-            </p>
-
-            <p>
-                Overall, these careers work together to drive innovation and responsible use of AI across industries.
-            </p>
+            <ul>
+                <li>Find patterns and trends in datasets</li>
+                <li>Create models to predict outcomes</li>
+                <li>Use machine learning techniques</li>
+                <li>Communicate insights to teams</li>
+                <li>Work with tools like Python, SQL, and R</li>
+                <li>Stay updated with new technologies</li>
+            </ul>
         </div>
 
-        <!-- NEW CARD: Future of AI Careers -->
+        <!-- JOB ROLES -->
         <div class="card">
-    <h2>AI Engineer Overview</h2>
+            <h2>Related Careers</h2>
 
-    <p>
-        An AI Engineer builds systems that can learn from data and perform intelligent tasks such as prediction, recognition, and decision-making.
-        Instead of writing fixed rules, they create models that improve through experience and training.
-    </p>
+            <ul>
+                <li>Data Scientist – Builds models and forecasts outcomes</li>
+                <li>Data Analyst – Interprets and visualizes data</li>
+                <li>Data Engineer – Builds data systems</li>
+                <li>Data Architect – Designs data structures</li>
+                <li>Machine Learning Engineer – Develops AI systems</li>
+                <li>Business Intelligence Engineer – Focuses on business data insights</li>
+            </ul>
+        </div>
 
-    <img src="/pictures ko/ai1.jpg" style="width:100%; margin-top:15px; border-radius:10px;" alt="AI Overview">
-</div>
+        <!-- SKILLS PATH (FULL WIDTH DIFFERENT STYLE) -->
+        <div class="card" style="grid-column: 1 / -1;">
+            <h2>How to Become a Data Scientist</h2>
 
-<div class="card">
-    <h2>How AI Systems Are Built</h2>
+            <h3>1. Learn the Foundations</h3>
+            <p>Statistics, probability, and basic linear algebra are essential.</p>
 
-    <p>
-        The process starts by understanding real-world problems like fraud detection, recommendations, or chatbots.
-        Engineers then prepare and clean data so the AI can learn properly.
-    </p>
+            <h3>2. Learn Programming</h3>
+            <p>Focus on Python and SQL. Learn libraries like pandas, numpy, and scikit-learn.</p>
 
-    <p>
-        After that, they build and train machine learning models using tools like TensorFlow or PyTorch.
-        The model is tested, improved, and adjusted until it performs well.
-    </p>
+            <h3>3. Data Analysis</h3>
+            <p>Clean data, find patterns, and create visualizations.</p>
 
-    <img src="/pictures ko/ai2.jpg" style="width:100%; margin-top:15px; border-radius:10px;" alt="AI Process">
-</div>
+            <h3>4. Machine Learning</h3>
+            <p>Learn regression, classification, and clustering.</p>
 
-<div class="card">
-    <h2>Real-World Impact & Future</h2>
+            <h3>5. Build Projects</h3>
+            <p>Work on real datasets like predictions, dashboards, or recommendation systems.</p>
 
-    <p>
-        AI engineers power technologies like ChatGPT, Netflix recommendations, Tesla self-driving systems, spam filters, and voice assistants.
-    </p>
+            <h3>6. Communication</h3>
+            <p>Explain insights clearly using charts and storytelling.</p>
 
-    <p>
-        This career is rapidly growing, especially in healthcare, finance, and technology. Continuous learning is important because AI evolves very quickly.
-    </p>
+            <h3>7. Gain Experience</h3>
+            <p>Internships, freelancing, or competitions like Kaggle.</p>
+        </div>
 
-    <img src="/pictures ko/ai3.jpg" style="width:100%; margin-top:15px; border-radius:10px;" alt="AI Future">
-</div>
+        <!-- TOOLS (DIFFERENT STYLE CARD) -->
+        <div class="card">
+            <h2>Tools & Technologies</h2>
+
+            <ul>
+                <li>Python (pandas, numpy, matplotlib)</li>
+                <li>SQL (databases)</li>
+                <li>Machine Learning libraries</li>
+                <li>Data visualization tools</li>
+                <li>Kaggle & GitHub (portfolio)</li>
+            </ul>
+        </div>
+
+        <!-- ROADMAP SUMMARY (VISUALLY DIFFERENT) -->
+        <div class="card">
+            <h2>Simple Roadmap</h2>
+
+            <ul>
+                <li>Math & Statistics</li>
+                <li>Programming (Python + SQL)</li>
+                <li>Data Analysis</li>
+                <li>Machine Learning</li>
+                <li>Projects</li>
+                <li>Real Experience</li>
+            </ul>
+        </div>
+
+        <!-- FUTURE -->
+        <div class="card" style="grid-column: 1 / -1;">
+            <h2>Career Outlook</h2>
+
+            <p>
+                Data science is one of the fastest-growing careers worldwide. Companies rely on data to improve products, increase profits, and stay competitive.
+            </p>
+
+            <p>
+                As industries continue to adopt AI and analytics, data scientists will remain essential in shaping the future of technology and decision-making.
+            </p>
+
+            <img src="../../images/strativ_images/dataScientist.jpg" style="width:100%; margin-top:15px; border-radius:10px;" alt="Future">
+        </div>
 
     </div>
 
